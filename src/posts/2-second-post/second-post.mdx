@@ -1,0 +1,23 @@
+---
+title: Second post
+slug: second-post
+image: ./images/trees.jpeg
+date: 2019-06-01
+author: hari
+---
+
+# Gatsby header
+
+Second post
+
+```javascript
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`, // highlight-line
+    options: {
+      plugins: [`gatsby-remark-prismjs`],
+    },
+  },
+]
+```

@@ -1,0 +1,23 @@
+---
+title: Third post
+slug: third-post
+image: ./images/computer.jpeg
+date: 2019-06-01
+author: hari
+---
+
+# Gatsby header
+
+Third post
+
+```javascript
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`, // highlight-line
+    options: {
+      plugins: [`gatsby-remark-prismjs`],
+    },
+  },
+]
+```
